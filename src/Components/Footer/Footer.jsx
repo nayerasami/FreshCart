@@ -9,7 +9,7 @@ import masteIcon from '../../assets/icons/masterCard.png'
 
 export default function Footer() {
   return (
-    <div className=' mt-5 bg-light p-3 fixed-bottom'>
+    <div className=' mt-5 bg-light p-3 '>
 
 <div className="container my-3">
 <h5 className='fw-bold my-2'>Get the FreshCart App</h5>
