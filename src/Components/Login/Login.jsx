@@ -64,7 +64,7 @@ navigate('/home')
    {errMsg !=="" ?<div className='alert alert-danger'>
 {errMsg}
         </div>:""} 
-<Link to='/forgetPassword?'>Forget Password ?</Link>
+<Link className='py-2' to='/forgetPassword?'>Forget Password ?</Link>
 <br/>
         {loading?  <button type='button' className='btn btn-success'>
           <i className='fa-solid fa-spinner fa-spin text-white'></i>
