@@ -53,7 +53,7 @@ function saveUserData(data){
 setUserData(data)
   }
 let routes =createBrowserRouter([
-{path:"",element:<Layout logOut={logOut} userData={userData}/>,children:[
+{path:"FreshCart/",element:<Layout logOut={logOut} userData={userData}/>,children:[
   {path:"home",element:<ProtectRouting><Home/></ProtectRouting>},
   {path:"products",element:<ProtectRouting><Products/></ProtectRouting>},
   {path:"category",element:<ProtectRouting><Category/></ProtectRouting>},
